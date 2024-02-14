@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cff78e07eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGO2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Mechatronics Engineer</p>
+            <h1>Hello, <span>Martin Mwangi</span><br>From Kenya</h1>
+        </div>
+    </div>
+
+ </div>
+ <!----------About-------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Martin Mwangi. A forth-year student at Dedan Kimathi University of Technology
+                    pursuing Bachelor of Science in Mechatronics Engineering with a zeal to learn and discover more
+                    about  as a course and profession and become a successful expert in the field 
+                    by channelizing my Mechatronics knowledge skills to ensure proffesional growth and problem solving for the community growth
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>PCB Designs</span><br>Electrical Components</li>
+                        <li><span>3D CAD Designs</span><br>Mechanical Design</li>
+                        <li><span>Embedded Systems Programming</span><br>Interface PCB and the CAD Models</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June 2023-August 2023</span><br>Industrial Attachment-Sagana Nuts Limited</li>
+                        <li><span>January 2022-april 2022</span><br>Internal Attachment-Dedan Kimathi University</li>
+                        <li><span>May 2023-June 2023</span><br>Industrial Attachment-Burn Manufacturers Ltd</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2025</span><br>Mechatronics Eng Student-Dedan Kimathi University</li>
+                        <li><span>2016-2019</span><br>Student-Chavakali High school</li>
+                        <li><span>2007-2015</span><br>Pupil- Nyakahura Primary School</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+ </div>
+<!------------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Solidworks 3D Design and Simulation</h2>
+                    <p> Here's a list of items that I do offer in Solidworks:
+                        <ul>
+                            <li>3D Modeling</li>
+                            <li>Product Design and Development:</li>
+                            <li>Mechanical Design</li>
+                            <li>Sheet Metal Design</li>
+                            <li>Rendering and Visualization</li>
+                        </ul>
+                 </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>PCB Designs and Simulations</h2>
+                <p> Here's a list of items that I do offer:
+                    <ul>
+                        <li>PCB Layout Design</li>
+                        <li>Schematic Capture</li>
+                        <li>High-Speed PCB Design</li>
+                        <li>Multi-Layer PCB Design</li>
+                        <li>Design for Testability (DFT)</li>
+                    </ul>
+                    </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>Embedded Systems Programming and Interface</h2>
+                <p>Excellent, unmatched quality in all aspects. 
+                    Design and enginereed Interface for the electrical and the Mechanical components</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-----------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/image1.jpg">
+                <div class="layer">
+                    <h3>PCB Design</h3>
+                    <p>PCB Layout
+                    
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image2.jpg">
+                <div class="layer">
+                    <h3>Solidworks Model</h3>
+                    <p>Create your Solidworks CAD files within a short period of time                        
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image3.jpg">
+                <div class="layer">
+                    <h3>3D Model</h3>
+                    <p>Simulate your model with my Solidworks services</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/large.jpg">
+                <div class="layer">
+                    <h3>3D Model</h3>
+                    <p>Self Balancing Robot designed by Solidworks</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image4.jpg">
+                <div class="layer">
+                    <h3>Embedded Systems Control</h3>
+                    <p>Enjoy the Embedded Systems Simulations after integration of the |3D CAD|PCB DESIGNS|cONTROL ALGORITHMS|</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+
+<!---------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>mwangison001@gmail.com</p> <!--add send icon-->
+                <p><i class="fa-solid fa-phone"></i>0742013667</p> <!--add phone icon-->
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/marto.ghazaking"><i class="fa-brands fa-facebook-f"></i></a> <!--add facebook icon-->
+                    <a href="https://x.com/LutherKingJnr13?t=5LvjDHScGvc3pwL6DWcu8w&s=09"><i class="fa-brands fa-x-twitter"></i></a> <!--add twitter icon-->
+                    <a href="https://www.instagram.com/martin_mwangi_001?utm_source=qr&igsh=MzlwZHNlc3VhZW5l"><i class="fa-brands fa-instagram"></i></a> <!--add instagram icon-->
+                    <a href="https://www.linkedin.com/in/martin-mwangi-820228259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a> <!--add linkedin icon-->
+                    <a href="https://wa.me/+254742013667"><i class="fa-brands fa-whatsapp"></i></a> <!--add whatsapp icon-->
+                </div>
+                <a href="images/cv.docx" download class="btn btn2">Download CV</a>
+                <a href="images/Autobiography.docx" download class="btn btn2">Download AUTOBIOGRAPHY</a>
+                <a href="images/Aspect of African Culture.docx" download class="btn btn2">Download African Aspect of Culture</a>
+                <a href="images/Photographic Essay.docx" download class="btn btn2">PHOTOGRAPHIC ESSAY</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="25" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <!--div class="copyright">
+        <p>COPYRIGHT <i class="fa-regular fa-copyright"></i> STINN CORPORATION</p>
+    </div>--->
+</div>
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "o";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyH70Av45gBgd78xAp8d_D0DzzMmjBHr2JCLUm62bcf5svRr1zc5Po13dOEZHeSdzNbrA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
